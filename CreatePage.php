@@ -54,6 +54,7 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 		$html = Html::openElement( 'form', array(
 			'action' => SpecialPage::getTitleFor( 'CreatePage' )->getLocalURL(),
 			'method' => 'post',
+			'style' => 'display: inline',
 		) );
 		
 		$html .= Html::input(
@@ -75,8 +76,8 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 		
 		$html .= '</form>';
 		
-		return array( $html, 'isHTML' => true );
+		return $parser->insertStripItem( $html );
 	}, SFH_OBJECT_ARGS );
-	
+
 	return true;
 };
