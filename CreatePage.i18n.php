@@ -18,6 +18,6 @@ $messages = array();
  * @author Jeroen De Dauw
  */
 $messages['en'] = array(
-	'cp-desc' => 'Allows placing an input that takes the name of a new page into pages.',
+	'cp-desc' => 'Allows placing an input that takes the name of a new page into pages',
 	'cp-create' => 'Create page',
 );

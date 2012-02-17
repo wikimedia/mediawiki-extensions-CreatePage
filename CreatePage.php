@@ -35,7 +35,7 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Create Page',
 	'version' => CP_VERSION,
 	'author' => array(
-		'[http://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
+		'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Create_Page',
 	'descriptionmsg' => 'cp-desc'
