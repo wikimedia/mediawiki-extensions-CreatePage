@@ -22,6 +22,14 @@ $messages['en'] = array(
 	'cp-create' => 'Create page',
 );
 
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+ * @author Wizardist
+ */
+$messages['be-tarask'] = array(
+	'cp-desc' => 'Дазваляе разьмяшчаць на старонках поле для стварэньня новай старонкі па ўведзенай назьве',
+	'cp-create' => 'Стварыць старонку',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -31,12 +39,51 @@ $messages['de'] = array(
 	'cp-create' => 'Seite erstellen',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'cp-desc' => 'Napórajo zapódawańske pólo, kótarež  pśewzejo mě nowego boka do bokow',
+	'cp-create' => 'Bok napóraś',
+);
+
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'cp-desc' => 'הוספת אפשרות להוסיף לדפים שדה קלט ליצירת דף חדש',
+	'cp-create' => 'יצירת דף',
+);
+
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'cp-desc' => 'Wutwori zapodawanske polo, kotrež mjeno noweje strony do stronow přewozmje',
+	'cp-create' => 'Stronu wutworić',
+);
+
 /** Interlingua (Interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
 	'cp-desc' => 'Permitte inserer in paginas un campo de entrata que demanda le nomine de un nove pagina a crear',
 	'cp-create' => 'Crear pagina',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'cp-create' => 'Säit uleeën',
+);
+
+/** Macedonian (Македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'cp-desc' => 'Овозможува внос што го зема името на една нова страница и го носи во страници',
+	'cp-create' => 'Создај страница',
 );
 
 /** Dutch (Nederlands)
