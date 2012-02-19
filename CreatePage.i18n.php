@@ -22,6 +22,14 @@ $messages['en'] = array(
 	'cp-create' => 'Create page',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'cp-desc' => "Permite poner n'otres páxines una entrada que toma'l nome d'una páxina nueva",
+	'cp-create' => 'Crear páxina',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
@@ -45,6 +53,14 @@ $messages['de'] = array(
 $messages['dsb'] = array(
 	'cp-desc' => 'Napórajo zapódawańske pólo, kótarež  pśewzejo mě nowego boka do bokow',
 	'cp-create' => 'Bok napóraś',
+);
+
+/** Galician (Galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'cp-desc' => 'Permite situar nas páxinas un campo de entrada que pide o nome dunha páxina nova a crear',
+	'cp-create' => 'Crear a páxina',
 );
 
 /** Hebrew (עברית)
@@ -91,5 +107,13 @@ $messages['mk'] = array(
  */
 $messages['nl'] = array(
 	'cp-create' => 'Pagina aanmaken',
+);
+
+/** Polish (Polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'cp-desc' => 'Pozwala na umieszczenie pola edycji, które pobiera nazwę nowej strony na strony',
+	'cp-create' => 'Utwórz stronę',
 );
 
