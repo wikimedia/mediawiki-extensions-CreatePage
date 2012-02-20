@@ -55,6 +55,14 @@ $messages['dsb'] = array(
 	'cp-create' => 'Bok napóraś',
 );
 
+/** French (Français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'cp-desc' => "Permet de placer une entrée qui prend le nom d'une nouvelle page dans les pages",
+	'cp-create' => 'Créer la page',
+);
+
 /** Galician (Galego)
  * @author Toliño
  */
@@ -91,6 +99,7 @@ $messages['ia'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
+	'cp-desc' => 'Erlaabt et eng Këscht ze benotze wou den Numm vun enger neier Säit a Säiten dragesat gëtt',
 	'cp-create' => 'Säit uleeën',
 );
 
