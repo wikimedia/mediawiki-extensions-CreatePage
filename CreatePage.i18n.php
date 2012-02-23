@@ -18,8 +18,16 @@ $messages = array();
  * @author Jeroen De Dauw
  */
 $messages['en'] = array(
-	'cp-desc' => 'Allows placing an input that takes the name of a new page into pages',
+	'cp-desc' => 'Allows embedding an input into which users can enter the name of a page to be created and are taken to that page when they click create.',
 	'cp-create' => 'Create page',
+);
+
+/** Message documentation (Message documentation)
+ * @author Jeroen De Dauw
+ */
+$messages['qqq'] = array(
+	'cp-desc' => 'Extension description for Special:Version',
+	'cp-create' => 'Create button text',
 );
 
 /** Asturian (Asturianu)

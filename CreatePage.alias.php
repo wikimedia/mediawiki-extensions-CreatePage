@@ -18,5 +18,5 @@ $specialPageAliases = array();
  * @author Jeroen De Dauw
  */
 $specialPageAliases['en'] = array(
-	'CreatePage' => array( 'CreatePage' ),
+	'CreatePageRedirect' => array( 'CreatePageRedirect' ),
 );

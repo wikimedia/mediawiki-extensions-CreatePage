@@ -47,12 +47,12 @@ $wgExtensionMessagesFiles['CreatePageAlias'] = dirname( __FILE__ ) . '/CreatePag
 $wgExtensionMessagesFiles['CreatePageMagic'] = dirname( __FILE__ ) . '/CreatePage.magic.php';
 
 $wgAutoloadClasses['SpecialCreatePage'] = dirname( __FILE__ ) . '/SpecialCreatePage.php';
-$wgSpecialPages['CreatePage'] = 'SpecialCreatePage';
+$wgSpecialPages['CreatePageRedirect'] = 'SpecialCreatePageRedirect';
 
 $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 	$parser->setFunctionHook( 'createpage', function( Parser $parser, PPFrame $frame, array $args ) {
 		$html = Html::openElement( 'form', array(
-			'action' => SpecialPage::getTitleFor( 'CreatePage' )->getLocalURL(),
+			'action' => SpecialPage::getTitleFor( 'CreatePageRedirect' )->getLocalURL(),
 			'method' => 'post',
 			'style' => 'display: inline',
 		) );

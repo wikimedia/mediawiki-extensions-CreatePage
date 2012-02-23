@@ -11,10 +11,10 @@
  * @licence GNU GPL v3 or later
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
-class SpecialCreatePage extends UnlistedSpecialPage {
+class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 	
 	public function __construct() {
-		parent::__construct( 'CreatePage' );
+		parent::__construct( 'CreatePageRedirect' );
 	}
 	
 	public function execute( $subPage ) {
@@ -36,7 +36,7 @@ class SpecialCreatePage extends UnlistedSpecialPage {
 			$target = Title::newMainPage()->getLocalURL();
 		}
 		
-		$this->getOutput()->redirect( $target );
+		$this->getOutput()->redirect( $target, '301' );
 	}
 	
 }
