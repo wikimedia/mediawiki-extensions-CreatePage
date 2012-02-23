@@ -55,6 +55,14 @@ $messages['dsb'] = array(
 	'cp-create' => 'Bok napóraś',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'cp-desc' => 'Permite colocar una entrada que lleva el nombre de una nueva página en las páginas',
+	'cp-create' => 'Crear página',
+);
+
 /** French (Français)
  * @author Gomoko
  */
