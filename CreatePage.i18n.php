@@ -51,7 +51,7 @@ $messages['be-tarask'] = array(
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'cp-desc' => 'Ermöglicht ein Eingabefeld für den Seitennamen zum Anlegen einer neuen Seite',
+	'cp-desc' => 'Ermöglicht das Einbetten eines Eingabefelds für den Seitennamen zum Anlegen der entsprechenden neuen Seite',
 	'cp-create' => 'Seite erstellen',
 );
 
@@ -140,5 +140,13 @@ $messages['nl'] = array(
 $messages['pl'] = array(
 	'cp-desc' => 'Pozwala na umieszczenie pola edycji, które pobiera nazwę nowej strony na strony',
 	'cp-create' => 'Utwórz stronę',
+);
+
+/** Russian (Русский)
+ * @author Ignatus
+ */
+$messages['ru'] = array(
+	'cp-desc' => 'Размещает на странице строку ввода названия новой страницы',
+	'cp-create' => 'Создать страницу',
 );
 
