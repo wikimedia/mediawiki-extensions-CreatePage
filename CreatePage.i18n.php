@@ -67,7 +67,7 @@ $messages['dsb'] = array(
  * @author Armando-Martin
  */
 $messages['es'] = array(
-	'cp-desc' => 'Permite colocar una entrada que lleva el nombre de una nueva página en las páginas',
+	'cp-desc' => 'Permite incrustar una entrada en la que los usuarios pueden introducir el nombre de una página para ser creada, y son llevados a esa página cuando hacen clic en la opción Crear.',
 	'cp-create' => 'Crear página',
 );
 
@@ -91,7 +91,7 @@ $messages['gl'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
-	'cp-desc' => 'הוספת אפשרות להוסיף לדפים שדה קלט ליצירת דף חדש',
+	'cp-desc' => 'הוספת אפשרות להוסיף לדפים שדה קלט ליצירת דף חדש ומעבר לדף שיצרו.',
 	'cp-create' => 'יצירת דף',
 );
 
@@ -107,15 +107,23 @@ $messages['hsb'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'cp-desc' => 'Permitte inserer in paginas un campo de entrata que demanda le nomine de un nove pagina a crear',
+	'cp-desc' => 'Permitte inserer in paginas un campo de entrata que demanda le nomine de un nove pagina a crear. Le usator es transportate al nove pagina quando ille clicca sur "Crear".',
 	'cp-create' => 'Crear pagina',
+);
+
+/** Korean (한국어)
+ * @author Freebiekr
+ */
+$messages['ko'] = array(
+	'cp-desc' => '사용자가 만들 문서의 이름을 입력할 수 있고 만들기를 클릭하면 그 문서로 이동하게 하는 입력 도구를 삽입합니다.',
+	'cp-create' => '문서 만들기',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
 $messages['lb'] = array(
-	'cp-desc' => 'Erlaabt et eng Këscht ze benotze wou den Numm vun enger neier Säit a Säiten dragesat gëtt',
+	'cp-desc' => "Erlaabt et eng Këscht anzebanne wou d'Benotzer den Numm vun enger neier Säit agi kënnen an duerno op déi Säit virugeleet gi wa si op uleeë klicken.",
 	'cp-create' => 'Säit uleeën',
 );
 
@@ -123,7 +131,7 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'cp-desc' => 'Овозможува внос што го зема името на една нова страница и го носи во страници',
+	'cp-desc' => 'Става поле за внесување име на страница што корисникот сака да ја создаде, а потоа го одведува неа кога ќе стисне на „создај“.',
 	'cp-create' => 'Создај страница',
 );
 
@@ -146,7 +154,7 @@ $messages['pl'] = array(
  * @author Ignatus
  */
 $messages['ru'] = array(
-	'cp-desc' => 'Размещает на странице строку ввода названия новой страницы',
+	'cp-desc' => 'Размещает на странице строку ввода, куда пользователь может ввести название страницы, которая должна быть создана, и куда он попадёт по нажатию "Создать".',
 	'cp-create' => 'Создать страницу',
 );
 
