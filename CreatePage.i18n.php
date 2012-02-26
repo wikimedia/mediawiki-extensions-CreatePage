@@ -99,7 +99,7 @@ $messages['he'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'cp-desc' => 'Wutwori zapodawanske polo, kotrež mjeno noweje strony do stronow přewozmje',
+	'cp-desc' => 'Zmóžnja zasadźenje zapodawanskeho pola, do kotrehož wužiwarjo móža mjeno strony zapodać, kotraž ma so wutworić, a woni sposrědkuju so k tej stronje, hdyž na "wutworić" kliknu.',
 	'cp-create' => 'Stronu wutworić',
 );
 
@@ -146,7 +146,7 @@ $messages['nl'] = array(
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
-	'cp-desc' => 'Pozwala na umieszczenie pola edycji, które pobiera nazwę nowej strony na strony',
+	'cp-desc' => 'Pozwala na osadzenie pola edycji, w które użytkownik może wpisać nazwę tworzonej strony i z którego nazwa brana jest na stronę po wciścnięciu przycisku utwórz.',
 	'cp-create' => 'Utwórz stronę',
 );
 
