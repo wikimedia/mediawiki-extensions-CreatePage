@@ -83,7 +83,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'cp-desc' => 'Permite situar nas páxinas un campo de entrada que pide o nome dunha páxina nova a crear',
+	'cp-desc' => 'Permite incorporar un campo de entrada no que os usuarios poden inserir o nome da páxina que queiran crear e ir ata a devandita páxina ao premer en "Crear".',
 	'cp-create' => 'Crear a páxina',
 );
 
