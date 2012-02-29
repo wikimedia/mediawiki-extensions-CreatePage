@@ -34,7 +34,7 @@ $messages['qqq'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'cp-desc' => "Permite poner n'otres páxines una entrada que toma'l nome d'una páxina nueva",
+	'cp-desc' => "Permite incrustar una entrada onde los usuarios puen escribir el nome d'una páxina que se tien de crear y que-yos lleva a esa páxina al calcar crear.",
 	'cp-create' => 'Crear páxina',
 );
 
@@ -75,7 +75,7 @@ $messages['es'] = array(
  * @author Gomoko
  */
 $messages['fr'] = array(
-	'cp-desc' => "Permet de placer une entrée qui prend le nom d'une nouvelle page dans les pages",
+	'cp-desc' => "Permet d'inclure un champ dans lequel l'utilisateur peut entrer le nom d'une page à créer et qui l'amène à cette page pour y cliquer sur créer.",
 	'cp-create' => 'Créer la page',
 );
 
