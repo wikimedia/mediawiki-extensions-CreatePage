@@ -59,7 +59,7 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'cp-desc' => 'Napórajo zapódawańske pólo, kótarež  pśewzejo mě nowego boka do bokow',
+	'cp-desc' => 'Zmóžnja zasajźenje zapodawańskego póla, do kótaregož wužywarjo mógu mě boka zapódaś, kótaryž ma se napóraś, a wóne pósrědnjaju se k tomu bokoju, gaž na "napóraś" kliknu.',
 	'cp-create' => 'Bok napóraś',
 );
 
