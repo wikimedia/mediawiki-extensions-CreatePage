@@ -18,7 +18,7 @@ $messages = array();
  * @author Jeroen De Dauw
  */
 $messages['en'] = array(
-	'cp-desc' => 'Allows embedding an input into which users can enter the name of a page to be created and are taken to that page when they click create.',
+	'cp-desc' => 'Allows embedding a form for new page creation',
 	'cp-create' => 'Create page',
 );
 
