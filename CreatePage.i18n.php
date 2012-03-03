@@ -51,7 +51,7 @@ $messages['be-tarask'] = array(
  * @author Metalhead64
  */
 $messages['de'] = array(
-	'cp-desc' => 'Ermöglicht das Einbetten eines Eingabefelds für den Seitennamen zum Anlegen der entsprechenden neuen Seite',
+	'cp-desc' => 'Ermöglicht das Einbetten eines Formulars zum Anlegen neuer Seite',
 	'cp-create' => 'Seite erstellen',
 );
 
@@ -107,7 +107,7 @@ $messages['hsb'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'cp-desc' => 'Permitte inserer in paginas un campo de entrata que demanda le nomine de un nove pagina a crear. Le usator es transportate al nove pagina quando ille clicca sur "Crear".',
+	'cp-desc' => 'Permitte inserer in paginas un formulario pro le creation de un nove pagina.',
 	'cp-create' => 'Crear pagina',
 );
 
@@ -115,7 +115,7 @@ $messages['ia'] = array(
  * @author Freebiekr
  */
 $messages['ko'] = array(
-	'cp-desc' => '사용자가 만들 문서의 이름을 입력할 수 있고 만들기를 클릭하면 그 문서로 이동하게 하는 입력 도구를 삽입합니다.',
+	'cp-desc' => '새 문서 만들기 서식을 포함',
 	'cp-create' => '문서 만들기',
 );
 
@@ -137,8 +137,10 @@ $messages['mk'] = array(
 
 /** Dutch (Nederlands)
  * @author SPQRobin
+ * @author Siebrand
  */
 $messages['nl'] = array(
+	'cp-desc' => 'Maakt het mogelijk een formulier in te voegen voor het aanmaken van een nieuwe pagina',
 	'cp-create' => 'Pagina aanmaken',
 );
 
