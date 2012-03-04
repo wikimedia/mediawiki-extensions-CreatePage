@@ -46,6 +46,13 @@ $messages['be-tarask'] = array(
 	'cp-create' => 'Стварыць старонку',
 );
 
+/** Breton (Brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'cp-create' => 'Krouiñ ar bajenn',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -59,7 +66,7 @@ $messages['de'] = array(
  * @author Michawiki
  */
 $messages['dsb'] = array(
-	'cp-desc' => 'Zmóžnja zasajźenje zapodawańskego póla, do kótaregož wužywarjo mógu mě boka zapódaś, kótaryž ma se napóraś, a wóne pósrědnjaju se k tomu bokoju, gaž na "napóraś" kliknu.',
+	'cp-desc' => 'Zmóžnja zasajźenje formulara za napóranje nowego boka',
 	'cp-create' => 'Bok napóraś',
 );
 
@@ -67,7 +74,7 @@ $messages['dsb'] = array(
  * @author Armando-Martin
  */
 $messages['es'] = array(
-	'cp-desc' => 'Permite incrustar una entrada en la que los usuarios pueden introducir el nombre de una página para ser creada, y son llevados a esa página cuando hacen clic en la opción Crear.',
+	'cp-desc' => 'Permite incrustar un formulario para la creación de una nueva página',
 	'cp-create' => 'Crear página',
 );
 
@@ -99,7 +106,7 @@ $messages['he'] = array(
  * @author Michawiki
  */
 $messages['hsb'] = array(
-	'cp-desc' => 'Zmóžnja zasadźenje zapodawanskeho pola, do kotrehož wužiwarjo móža mjeno strony zapodać, kotraž ma so wutworić, a woni sposrědkuju so k tej stronje, hdyž na "wutworić" kliknu.',
+	'cp-desc' => 'Zmóžnja zasadźenje formulara za wutworjenje noweje strony',
 	'cp-create' => 'Stronu wutworić',
 );
 
@@ -131,7 +138,7 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'cp-desc' => 'Става поле за внесување име на страница што корисникот сака да ја создаде, а потоа го одведува неа кога ќе стисне на „создај“.',
+	'cp-desc' => 'Овозможува вметнување на образец за создавање на нова страница',
 	'cp-create' => 'Создај страница',
 );
 
