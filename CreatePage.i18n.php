@@ -78,11 +78,19 @@ $messages['es'] = array(
 	'cp-create' => 'Crear página',
 );
 
+/** Persian (فارسی)
+ * @author ZxxZxxZ
+ */
+$messages['fa'] = array(
+	'cp-desc' => 'امکان ساخت فرمی جاسازی‌شده برای ایجاد صفحه را می‌دهد',
+	'cp-create' => 'ایجاد صفحه',
+);
+
 /** French (Français)
  * @author Gomoko
  */
 $messages['fr'] = array(
-	'cp-desc' => "Permet d'inclure un champ dans lequel l'utilisateur peut entrer le nom d'une page à créer et qui l'amène à cette page pour y cliquer sur créer.",
+	'cp-desc' => "Permet d'inclure un formulaire pour la création d'une nouvelle page",
 	'cp-create' => 'Créer la page',
 );
 
@@ -90,7 +98,7 @@ $messages['fr'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'cp-desc' => 'Permite incorporar un campo de entrada no que os usuarios poden inserir o nome da páxina que queiran crear e ir ata a devandita páxina ao premer en "Crear".',
+	'cp-desc' => 'Permite incorporar un formulario para a creación de páxinas novas',
 	'cp-create' => 'Crear a páxina',
 );
 
@@ -155,7 +163,7 @@ $messages['nl'] = array(
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
-	'cp-desc' => 'Pozwala na osadzenie pola edycji, w które użytkownik może wpisać nazwę tworzonej strony i z którego nazwa brana jest na stronę po wciścnięciu przycisku utwórz.',
+	'cp-desc' => 'Pozwala na osadzenie formularza do tworzenia nowej strony',
 	'cp-create' => 'Utwórz stronę',
 );
 
