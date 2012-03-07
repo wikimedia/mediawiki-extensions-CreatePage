@@ -138,7 +138,7 @@ $messages['ko'] = array(
  * @author Robby
  */
 $messages['lb'] = array(
-	'cp-desc' => "Erlaabt et eng Këscht anzebanne wou d'Benotzer den Numm vun enger neier Säit agi kënnen an duerno op déi Säit virugeleet gi wa si op uleeë klicken.",
+	'cp-desc' => "Erlaabt et E Formulaire fir d'Uleeë vun neie Säiten anzebannen.",
 	'cp-create' => 'Säit uleeën',
 );
 
@@ -165,6 +165,14 @@ $messages['nl'] = array(
 $messages['pl'] = array(
 	'cp-desc' => 'Pozwala na osadzenie formularza do tworzenia nowej strony',
 	'cp-create' => 'Utwórz stronę',
+);
+
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'cp-desc' => "A përmëtt d'anserì un formoari për la creassion ëd na pagina neuva",
+	'cp-create' => "Crea n'artìcol",
 );
 
 /** Russian (Русский)
