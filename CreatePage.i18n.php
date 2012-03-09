@@ -183,3 +183,11 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
+/** Simplified Chinese (‪中文(简体)‬)
+ * @author Linforest
+ */
+$messages['zh-hans'] = array(
+	'cp-desc' => '允许内置用于创建新页面的表单',
+	'cp-create' => '创建页面',
+);
+
