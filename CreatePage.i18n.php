@@ -34,7 +34,7 @@ $messages['qqq'] = array(
  * @author Xuacu
  */
 $messages['ast'] = array(
-	'cp-desc' => "Permite incrustar una entrada onde los usuarios puen escribir el nome d'una páxina que se tien de crear y que-yos lleva a esa páxina al calcar crear.",
+	'cp-desc' => 'Permite incrustar un formulariu pa crear una páxina nueva.',
 	'cp-create' => 'Crear páxina',
 );
 
