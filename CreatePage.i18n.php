@@ -168,10 +168,11 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'cp-desc' => "A përmëtt d'anserì un formoari për la creassion ëd na pagina neuva",
+	'cp-desc' => "A përmët d'anserì un formolari për la creassion ëd na pàgina neuva",
 	'cp-create' => "Crea n'artìcol",
 );
 
