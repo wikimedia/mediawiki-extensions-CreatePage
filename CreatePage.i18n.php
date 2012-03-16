@@ -142,6 +142,14 @@ $messages['lb'] = array(
 	'cp-create' => 'Säit uleeën',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'cp-desc' => 'Phêk thar siamna atana lehkha hrang zeh tel theihna',
+	'cp-create' => 'Phêk siamna',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  */
