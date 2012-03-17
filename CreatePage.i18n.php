@@ -147,7 +147,7 @@ $messages['lb'] = array(
  */
 $messages['lus'] = array(
 	'cp-desc' => 'Phêk thar siamna atana lehkha hrang zeh tel theihna',
-	'cp-create' => 'Phêk siamna',
+	'cp-create' => 'Hemi phêk hi siam rawh le',
 );
 
 /** Macedonian (Македонски)
