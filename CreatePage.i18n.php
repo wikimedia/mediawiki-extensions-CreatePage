@@ -146,6 +146,7 @@ $messages['lb'] = array(
  * @author Migraghvi
  */
 $messages['lez'] = array(
+	'cp-desc' => 'ЦIийи ччин туькIуьрунин патал форма гъизва',
 	'cp-create' => 'Ччин туькIуьрун',
 );
 
