@@ -201,6 +201,14 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
+/** Tatar (Cyrillic script) (Татарча)
+ * @author Ajdar
+ */
+$messages['tt-cyrl'] = array(
+	'cp-desc' => 'Ясалган мәкалә өчен кыса кую.',
+	'cp-create' => 'Мәкалә ясау',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Linforest
  */
