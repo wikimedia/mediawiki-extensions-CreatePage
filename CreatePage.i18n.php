@@ -46,6 +46,13 @@ $messages['be-tarask'] = array(
 	'cp-create' => 'Стварыць старонку',
 );
 
+/** Banjar (Bahasa Banjar)
+ * @author J Subhi
+ */
+$messages['bjn'] = array(
+	'cp-create' => 'Ma-ulah tungkaran',
+);
+
 /** Breton (Brezhoneg)
  * @author Y-M D
  */
