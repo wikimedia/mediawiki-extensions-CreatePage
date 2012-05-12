@@ -208,12 +208,26 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
+/** Turkish (Türkçe)
+ * @author Suelnur
+ */
+$messages['tr'] = array(
+	'cp-create' => 'Sayfa oluştur',
+);
+
 /** Tatar (Cyrillic script) (Татарча)
  * @author Ajdar
  */
 $messages['tt-cyrl'] = array(
 	'cp-desc' => 'Ясалган мәкалә өчен кыса кую.',
 	'cp-create' => 'Мәкалә ясау',
+);
+
+/** Ukrainian (Українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'cp-create' => 'Створити сторінку',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
