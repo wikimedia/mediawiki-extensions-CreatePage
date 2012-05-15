@@ -208,6 +208,14 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'cp-desc' => 'Umožňuje vkladanie formulára na vytvorenie novej stránky',
+	'cp-create' => 'Vytvoriť stránku',
+);
+
 /** Turkish (Türkçe)
  * @author Suelnur
  */
