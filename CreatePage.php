@@ -46,7 +46,7 @@ $wgExtensionMessagesFiles['CreatePage'] = dirname( __FILE__ ) . '/CreatePage.i18
 $wgExtensionMessagesFiles['CreatePageAlias'] = dirname( __FILE__ ) . '/CreatePage.alias.php';
 $wgExtensionMessagesFiles['CreatePageMagic'] = dirname( __FILE__ ) . '/CreatePage.magic.php';
 
-$wgAutoloadClasses['SpecialCreatePage'] = dirname( __FILE__ ) . '/SpecialCreatePage.php';
+$wgAutoloadClasses['SpecialCreatePageRedirect'] = dirname( __FILE__ ) . '/SpecialCreatePageRedirect.php';
 $wgSpecialPages['CreatePageRedirect'] = 'SpecialCreatePageRedirect';
 
 $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
