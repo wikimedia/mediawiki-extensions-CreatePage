@@ -113,7 +113,7 @@ $messages['gl'] = array(
  * @author Amire80
  */
 $messages['he'] = array(
-	'cp-desc' => 'הוספת אפשרות להוסיף לדפים שדה קלט ליצירת דף חדש ומעבר לדף שיצרו.',
+	'cp-desc' => 'הוספת טופס ליצירת דף חדש',
 	'cp-create' => 'יצירת דף',
 );
 
@@ -131,6 +131,14 @@ $messages['hsb'] = array(
 $messages['ia'] = array(
 	'cp-desc' => 'Permitte inserer in paginas un formulario pro le creation de un nove pagina.',
 	'cp-create' => 'Crear pagina',
+);
+
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'cp-desc' => '新しいページ作成のためのフォームを埋め込めるようにする',
+	'cp-create' => 'ページを作成',
 );
 
 /** Korean (한국어)
