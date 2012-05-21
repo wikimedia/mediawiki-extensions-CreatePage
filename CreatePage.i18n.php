@@ -133,6 +133,14 @@ $messages['ia'] = array(
 	'cp-create' => 'Crear pagina',
 );
 
+/** Italian (Italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'cp-desc' => 'Permette di inserire un modulo per la creazione di nuove pagine',
+	'cp-create' => 'Crea pagina',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
