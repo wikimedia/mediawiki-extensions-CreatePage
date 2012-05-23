@@ -14,9 +14,32 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jeroen De Dauw
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'CreatePageRedirect' => array( 'CreatePageRedirect' ),
+);
+
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'CreatePageRedirect' => array( 'Seitenweiterleitung_erstellen' ),
+);
+
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'CreatePageRedirect' => array( '문서만들기넘겨주기' ),
+);
+
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'CreatePageRedirect' => array( 'НаправиПренасочување' ),
+);
+
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'CreatePageRedirect' => array( 'താൾതിരിച്ചുവിടൽസൃഷ്ടിക്കുക' ),
+);
+
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'CreatePageRedirect' => array( 'PaginadoorverwijzingAanmaken' ),
 );
