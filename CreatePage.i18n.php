@@ -157,6 +157,14 @@ $messages['ko'] = array(
 	'cp-create' => '문서 만들기',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'cp-desc' => 'Määd et müjjelesch, e Fommulaa för en neu Sigg aanzlääje, en en Sigg enzeboue.',
+	'cp-create' => 'Sigg aanlääje',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
