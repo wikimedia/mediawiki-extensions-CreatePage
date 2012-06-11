@@ -19,9 +19,19 @@ $specialPageAliases['en'] = array(
 	'CreatePageRedirect' => array( 'CreatePageRedirect' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'CreatePageRedirect' => array( 'إنشاء_صفحة_تحويلة' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'CreatePageRedirect' => array( 'Seitenweiterleitung_erstellen' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'CreatePageRedirect' => array( 'HetenayışêPelaVıraştan' ),
 );
 
 /** Korean (한국어) */
@@ -29,7 +39,7 @@ $specialPageAliases['ko'] = array(
 	'CreatePageRedirect' => array( '문서만들기넘겨주기' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CreatePageRedirect' => array( 'НаправиПренасочување' ),
 );
