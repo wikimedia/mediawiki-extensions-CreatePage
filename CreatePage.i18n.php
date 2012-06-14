@@ -30,7 +30,7 @@ $messages['qqq'] = array(
 	'cp-create' => 'Create button text',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -53,7 +53,7 @@ $messages['bjn'] = array(
 	'cp-create' => 'Ma-ulah tungkaran',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Y-M D
  */
 $messages['br'] = array(
@@ -77,7 +77,7 @@ $messages['dsb'] = array(
 	'cp-create' => 'Bok napóraś',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -93,7 +93,7 @@ $messages['fa'] = array(
 	'cp-create' => 'ایجاد صفحه',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -125,7 +125,7 @@ $messages['hsb'] = array(
 	'cp-create' => 'Stronu wutworić',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -133,7 +133,7 @@ $messages['ia'] = array(
 	'cp-create' => 'Crear pagina',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -189,7 +189,7 @@ $messages['lus'] = array(
 	'cp-create' => 'Hemi phêk hi siam rawh le',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -206,7 +206,7 @@ $messages['nl'] = array(
 	'cp-create' => 'Pagina aanmaken',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -223,7 +223,7 @@ $messages['pms'] = array(
 	'cp-create' => "Crea n'artìcol",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author Ignatus
  */
@@ -232,7 +232,7 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -255,7 +255,7 @@ $messages['tr'] = array(
 	'cp-create' => 'Sayfa oluştur',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ajdar
  */
 $messages['tt-cyrl'] = array(
@@ -263,14 +263,14 @@ $messages['tt-cyrl'] = array(
 	'cp-create' => 'Мәкалә ясау',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Base
  */
 $messages['uk'] = array(
 	'cp-create' => 'Створити сторінку',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
