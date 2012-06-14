@@ -240,6 +240,14 @@ $messages['sk'] = array(
 	'cp-create' => 'Vytvoriť stránku',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'cp-desc' => 'Nagpapahintulot ng pagbabaon ng isang pormularyo para sa paglikha ng bagong pahina',
+	'cp-create' => 'Likhain ang pahina',
+);
+
 /** Turkish (Türkçe)
  * @author Suelnur
  */
