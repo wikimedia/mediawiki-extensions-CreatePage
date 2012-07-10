@@ -63,3 +63,8 @@ $specialPageAliases['ml'] = array(
 $specialPageAliases['nl'] = array(
 	'CreatePageRedirect' => array( 'PaginadoorverwijzingAanmaken' ),
 );
+
+/** Turkish (Türkçe) */
+$specialPageAliases['tr'] = array(
+	'CreatePageRedirect' => array( 'YönlendirmeSayfasıOluştur' ),
+);
