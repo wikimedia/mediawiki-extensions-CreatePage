@@ -173,7 +173,7 @@ $messages['lb'] = array(
 	'cp-create' => 'Säit uleeën',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Migraghvi
  */
 $messages['lez'] = array(
