@@ -69,6 +69,13 @@ $messages['de'] = array(
 	'cp-create' => 'Seite erstellen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'cp-create' => 'Pela vırazê',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
