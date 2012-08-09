@@ -239,6 +239,13 @@ $messages['ru'] = array(
 	'cp-create' => 'Создать страницу',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'cp-create' => 'පිටුව තනන්න',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
