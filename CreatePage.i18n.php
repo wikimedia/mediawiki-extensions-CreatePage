@@ -60,6 +60,14 @@ $messages['br'] = array(
 	'cp-create' => 'Krouiñ ar bajenn',
 );
 
+/** Czech (česky)
+ * @author Reaperman
+ */
+$messages['cs'] = array(
+	'cp-desc' => 'Umožňuje vkládat formulář pro vytváření nových stránek',
+	'cp-create' => 'Vytvořit stránku',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64
@@ -154,6 +162,13 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'cp-desc' => '新しいページ作成のためのフォームを埋め込めるようにする',
 	'cp-create' => 'ページを作成',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'cp-create' => 'გვერდის შექმნა',
 );
 
 /** Korean (한국어)
