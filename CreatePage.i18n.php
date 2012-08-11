@@ -219,6 +219,14 @@ $messages['mk'] = array(
 	'cp-create' => 'Создај страница',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'cp-desc' => "Tħalli li ddaħħal formola għall-ħolqien ta' paġni ġodda",
+	'cp-create' => 'Oħloq il-paġna',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -245,6 +253,13 @@ $messages['pms'] = array(
 	'cp-create' => "Crea n'artìcol",
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'cp-create' => 'مخ جوړول',
+);
+
 /** Russian (русский)
  * @author DCamer
  * @author Ignatus
@@ -267,6 +282,13 @@ $messages['si'] = array(
 $messages['sk'] = array(
 	'cp-desc' => 'Umožňuje vkladanie formulára na vytvorenie novej stránky',
 	'cp-create' => 'Vytvoriť stránku',
+);
+
+/** Tamil (தமிழ்)
+ * @author Shanmugamp7
+ */
+$messages['ta'] = array(
+	'cp-create' => 'பக்கத்தை உருவாக்கவும்',
 );
 
 /** Tagalog (Tagalog)
