@@ -100,6 +100,13 @@ $messages['es'] = array(
 	'cp-create' => 'Crear página',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'cp-create' => 'Alusta lehekülge',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */
