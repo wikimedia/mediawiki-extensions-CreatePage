@@ -328,6 +328,13 @@ $messages['uk'] = array(
 	'cp-create' => 'Створити сторінку',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'cp-create' => 'صفحہ بنائیں',
+);
+
 /** Simplified Chinese (‪中文（简体）‬)
  * @author Linforest
  */
