@@ -291,6 +291,13 @@ $messages['sk'] = array(
 	'cp-create' => 'Vytvoriť stránku',
 );
 
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'cp-create' => 'Skapa sida',
+);
+
 /** Tamil (தமிழ்)
  * @author Shanmugamp7
  */
