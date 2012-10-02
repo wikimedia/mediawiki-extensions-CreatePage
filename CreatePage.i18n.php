@@ -38,7 +38,7 @@ $messages['ast'] = array(
 	'cp-create' => 'Crear páxina',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -342,7 +342,7 @@ $messages['ur'] = array(
 	'cp-create' => 'صفحہ بنائیں',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  */
 $messages['zh-hans'] = array(
