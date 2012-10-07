@@ -26,7 +26,7 @@ $specialPageAliases['ar'] = array(
 
 /** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
-	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুণঃনিৰ্দেশনা_সৃষ্টি_কৰক' ),
+	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুনৰ্নিৰ্দেশনা_সৃষ্টি_কৰক' ),
 );
 
 /** German (Deutsch) */
