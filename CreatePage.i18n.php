@@ -30,6 +30,13 @@ $messages['qqq'] = array(
 	'cp-create' => 'Create button text',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Bishnu Saikia
+ */
+$messages['as'] = array(
+	'cp-create' => 'পৃষ্ঠা সৃষ্টি কৰক',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
