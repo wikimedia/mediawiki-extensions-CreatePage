@@ -45,6 +45,14 @@ $messages['ast'] = array(
 	'cp-create' => 'Crear páxina',
 );
 
+/** Belarusian (беларуская)
+ * @author Чаховіч Уладзіслаў
+ */
+$messages['be'] = array(
+	'cp-desc' => 'Размяшчае форму для створанай старонкі',
+	'cp-create' => 'Стварыць старонку',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
