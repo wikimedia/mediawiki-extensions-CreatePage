@@ -365,9 +365,9 @@ $messages['zh-hans'] = array(
 	'cp-create' => '创建页面',
 );
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）‎)
+ */
 $messages['zh-hant'] = array(
 	'cp-desc' => '允許內置用於創建新頁面的表單',
 	'cp-create' => '創建頁面',
 );
-
