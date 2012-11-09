@@ -68,3 +68,8 @@ $specialPageAliases['nl'] = array(
 $specialPageAliases['tr'] = array(
 	'CreatePageRedirect' => array( 'YönlendirmeSayfasıOluştur' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'CreatePageRedirect' => array( '创建页面重定向' ),
+);
