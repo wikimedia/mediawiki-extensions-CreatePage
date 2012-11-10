@@ -359,9 +359,10 @@ $messages['ur'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
-	'cp-desc' => '允许内置用于创建新页面的表单',
+	'cp-desc' => '允许嵌入用于新页面创建的表格',
 	'cp-create' => '创建页面',
 );
 
