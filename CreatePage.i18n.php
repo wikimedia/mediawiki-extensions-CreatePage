@@ -45,6 +45,14 @@ $messages['ast'] = array(
 	'cp-create' => 'Crear páxina',
 );
 
+/** تورکجه (تورکجه)
+ * @author Mousa
+ */
+$messages['azb'] = array(
+	'cp-desc' => 'صفحه یاراتماق اوچون بیر فورم یئرلشدیریلمه‌سینی ایجازه وئریر',
+	'cp-create' => 'صفحه یارات',
+);
+
 /** Belarusian (беларуская)
  * @author Чаховіч Уладзіслаў
  */
