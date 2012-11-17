@@ -44,6 +44,11 @@ $specialPageAliases['gl'] = array(
 	'CreatePageRedirect' => array( 'Crear_a_páxina_de_redirección' ),
 );
 
+/** Italian (italiano) */
+$specialPageAliases['it'] = array(
+	'CreatePageRedirect' => array( 'CreaPaginaDiRinvio' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'CreatePageRedirect' => array( '문서만들기넘겨주기' ),
