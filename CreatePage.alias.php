@@ -69,6 +69,11 @@ $specialPageAliases['nl'] = array(
 	'CreatePageRedirect' => array( 'PaginadoorverwijzingAanmaken' ),
 );
 
+/** Sicilian (sicilianu) */
+$specialPageAliases['scn'] = array(
+	'CreatePageRedirect' => array( 'CreaPaginaDiRinvio' ),
+);
+
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
 	'CreatePageRedirect' => array( 'YönlendirmeSayfasıOluştur' ),
