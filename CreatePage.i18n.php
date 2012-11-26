@@ -355,6 +355,7 @@ $messages['tt-cyrl'] = array(
  * @author Base
  */
 $messages['uk'] = array(
+	'cp-desc' => 'Дозволяє розміщувати форму для створення нових сторінок',
 	'cp-create' => 'Створити сторінку',
 );
 
