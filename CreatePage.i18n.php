@@ -170,6 +170,13 @@ $messages['hsb'] = array(
 	'cp-create' => 'Stronu wutworić',
 );
 
+/** Armenian (Հայերեն)
+ * @author Vadgt
+ */
+$messages['hy'] = array(
+	'cp-create' => 'Ստեղծել էջ',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
