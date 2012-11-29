@@ -138,6 +138,14 @@ $messages['fa'] = array(
 	'cp-create' => 'ایجاد صفحه',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'cp-desc' => 'Mahdollistaa lomakkeen upottamisen uuden sivun luontia varten',
+	'cp-create' => 'Luo sivu',
+);
+
 /** French (français)
  * @author Gomoko
  */
