@@ -295,7 +295,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'cp-desc' => "A përmët d'anserì un formolari për la creassion ëd na pàgina neuva",
-	'cp-create' => "Crea n'artìcol",
+	'cp-create' => 'Creé la pàgina',
 );
 
 /** Pashto (پښتو)
@@ -331,8 +331,10 @@ $messages['sk'] = array(
 
 /** Swedish (svenska)
  * @author Ainali
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
+	'cp-desc' => 'Tillåter att bädda in ett formulär när en ny sida skapas',
 	'cp-create' => 'Skapa sida',
 );
 
