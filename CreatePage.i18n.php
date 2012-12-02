@@ -91,6 +91,13 @@ $messages['cs'] = array(
 	'cp-create' => 'Vytvořit stránku',
 );
 
+/** Danish (dansk)
+ * @author Sarrus
+ */
+$messages['da'] = array(
+	'cp-create' => 'Opret side',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Metalhead64

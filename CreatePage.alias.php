@@ -54,6 +54,11 @@ $specialPageAliases['ko'] = array(
 	'CreatePageRedirect' => array( '문서만들기넘겨주기' ),
 );
 
+/** Cornish (kernowek) */
+$specialPageAliases['kw'] = array(
+	'CreatePageRedirect' => array( 'FormyaDaswedyansFolen' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CreatePageRedirect' => array( 'НаправиПренасочување' ),
