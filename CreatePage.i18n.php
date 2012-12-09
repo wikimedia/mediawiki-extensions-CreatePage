@@ -45,12 +45,13 @@ $messages['ast'] = array(
 	'cp-create' => 'Crear páxina',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
+ * @author Amir a57
  * @author Mousa
  */
 $messages['azb'] = array(
 	'cp-desc' => 'صفحه یاراتماق اوچون بیر فورم یئرلشدیریلمه‌سینی ایجازه وئریر',
-	'cp-create' => 'صفحه یارات',
+	'cp-create' => 'صحیفه یارات',
 );
 
 /** Belarusian (беларуская)
