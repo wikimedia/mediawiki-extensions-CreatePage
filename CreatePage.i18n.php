@@ -123,6 +123,13 @@ $messages['dsb'] = array(
 	'cp-create' => 'Bok napóraś',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'cp-create' => 'Δημιουργία σελίδας',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
@@ -311,6 +318,13 @@ $messages['pms'] = array(
  */
 $messages['ps'] = array(
 	'cp-create' => 'مخ جوړول',
+);
+
+/** Romanian (română)
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'cp-create' => 'Creează pagina',
 );
 
 /** Russian (русский)
