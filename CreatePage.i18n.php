@@ -77,6 +77,13 @@ $messages['bjn'] = array(
 	'cp-create' => 'Ma-ulah tungkaran',
 );
 
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'cp-create' => 'পাতা তৈরি',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
