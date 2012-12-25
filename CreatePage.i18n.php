@@ -286,6 +286,13 @@ $messages['mk'] = array(
 	'cp-create' => 'Создај страница',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Pizza1016
+ */
+$messages['ms'] = array(
+	'cp-create' => 'Cipta laman',
+);
+
 /** Maltese (Malti)
  * @author Chrisportelli
  */
