@@ -88,3 +88,8 @@ $specialPageAliases['tr'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'CreatePageRedirect' => array( '创建页面重定向' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'CreatePageRedirect' => array( '建立頁面重定向' ),
+);
