@@ -278,6 +278,13 @@ $messages['lus'] = array(
 	'cp-create' => 'Hemi phêk hi siam rawh le',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'cp-create' => 'Gawe kaca',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
