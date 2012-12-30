@@ -91,6 +91,13 @@ $messages['br'] = array(
 	'cp-create' => 'Krouiñ ar bajenn',
 );
 
+/** Catalan (català)
+ * @author Arnaugir
+ */
+$messages['ca'] = array(
+	'cp-create' => 'Crea una pàgina',
+);
+
 /** Czech (česky)
  * @author Reaperman
  */
@@ -174,6 +181,13 @@ $messages['fi'] = array(
 $messages['fr'] = array(
 	'cp-desc' => "Permet d'inclure un formulaire pour la création d'une nouvelle page",
 	'cp-create' => 'Créer la page',
+);
+
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'cp-create' => 'Fâre la pâge',
 );
 
 /** Galician (galego)
@@ -294,9 +308,11 @@ $messages['mk'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Pizza1016
  */
 $messages['ms'] = array(
+	'cp-desc' => 'Membolehkan pembenaman borang untuk pembukaan halaman baru',
 	'cp-create' => 'Cipta laman',
 );
 
