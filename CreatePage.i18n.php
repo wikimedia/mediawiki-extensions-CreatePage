@@ -206,6 +206,13 @@ $messages['he'] = array(
 	'cp-create' => 'יצירת דף',
 );
 
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'cp-create' => 'पृष्ठ बनाएँ',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -333,6 +340,13 @@ $messages['nl'] = array(
 	'cp-create' => 'Pagina aanmaken',
 );
 
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'cp-create' => 'ପୃଷ୍ଠାଟିଏ ତିଆରିବା',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
@@ -377,6 +391,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'cp-desc' => 'නව පිටු තැනීම සඳහා ෆෝරමයක් කාවැද්දීමට ඉඩ දේ',
 	'cp-create' => 'පිටුව තනන්න',
 );
 
@@ -386,6 +401,13 @@ $messages['si'] = array(
 $messages['sk'] = array(
 	'cp-desc' => 'Umožňuje vkladanie formulára na vytvorenie novej stránky',
 	'cp-create' => 'Vytvoriť stránku',
+);
+
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Rancher
+ */
+$messages['sr-ec'] = array(
+	'cp-create' => 'Направи страницу',
 );
 
 /** Swedish (svenska)
