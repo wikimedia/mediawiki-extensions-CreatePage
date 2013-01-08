@@ -464,6 +464,13 @@ $messages['ur'] = array(
 	'cp-create' => 'صفحہ بنائیں',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'cp-create' => 'שאַפֿן בלאַט',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Linforest
  * @author Xiaomingyan
