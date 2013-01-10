@@ -378,6 +378,14 @@ $messages['ro'] = array(
 	'cp-create' => 'Creează pagina',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'cp-desc' => "Permette 'u 'ngapsulamende de 'nu module p'a ccrejazione de 'na pàgena nove",
+	'cp-create' => "Ccreje 'a vôsce",
+);
+
 /** Russian (русский)
  * @author DCamer
  * @author Ignatus
