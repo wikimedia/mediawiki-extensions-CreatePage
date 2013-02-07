@@ -44,6 +44,11 @@ $specialPageAliases['gl'] = array(
 	'CreatePageRedirect' => array( 'Crear_a_páxina_de_redirección' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$specialPageAliases['id'] = array(
+	'CreatePageRedirect' => array( 'Buat_pengalihan_halaman', 'BuatPengalihanHalaman' ),
+);
+
 /** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'CreatePageRedirect' => array( 'CreaPaginaDiRinvio' ),
