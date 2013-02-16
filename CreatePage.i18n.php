@@ -24,9 +24,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Jeroen De Dauw
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'cp-desc' => 'Extension description for Special:Version',
+	'cp-desc' => '{{desc|name=Create Page|url=http://www.mediawiki.org/wiki/Extension:Create_Page}}',
 	'cp-create' => 'Create button text',
 );
 
