@@ -435,6 +435,13 @@ $messages['ta'] = array(
 	'cp-create' => 'பக்கத்தை உருவாக்கவும்',
 );
 
+/** Tajik (Cyrillic script) (тоҷикӣ)
+ * @author Ibrahim
+ */
+$messages['tg-cyrl'] = array(
+	'cp-create' => 'Эҷоди мақола',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
