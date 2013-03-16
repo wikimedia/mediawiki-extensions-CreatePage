@@ -64,6 +64,11 @@ $specialPageAliases['kw'] = array(
 	'CreatePageRedirect' => array( 'FormyaDaswedyansFolen' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$specialPageAliases['lb'] = array(
+	'CreatePageRedirect' => array( 'Viruleedung_vu_Säiten_uleeën' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CreatePageRedirect' => array( 'НаправиПренасочување' ),
