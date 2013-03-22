@@ -39,6 +39,11 @@ $specialPageAliases['diq'] = array(
 	'CreatePageRedirect' => array( 'HetenayışêPelaVıraştan' ),
 );
 
+/** Esperanto (Esperanto) */
+$specialPageAliases['eo'] = array(
+	'CreatePageRedirect' => array( 'Krei_paĝalidirektilon' ),
+);
+
 /** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'CreatePageRedirect' => array( 'Crear_a_páxina_de_redirección' ),
