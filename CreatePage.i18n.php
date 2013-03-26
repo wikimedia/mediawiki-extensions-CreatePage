@@ -31,6 +31,13 @@ $messages['qqq'] = array(
 	'cp-create' => 'Create button text',
 );
 
+/** Arabic (العربية)
+ * @author ترجمان05
+ */
+$messages['ar'] = array(
+	'cp-create' => 'إنشاء صفحة',
+);
+
 /** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
