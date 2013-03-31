@@ -61,7 +61,7 @@ $specialPageAliases['it'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'CreatePageRedirect' => array( '문서만들기넘겨주기' ),
+	'CreatePageRedirect' => array( '문서넘겨주기만들기' ),
 );
 
 /** Cornish (kernowek) */

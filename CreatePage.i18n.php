@@ -269,9 +269,10 @@ $messages['ka'] = array(
 
 /** Korean (한국어)
  * @author Freebiekr
+ * @author 아라
  */
 $messages['ko'] = array(
-	'cp-desc' => '새 문서 만들기 서식을 포함',
+	'cp-desc' => '새 문서 만들기 서식을 포함할 수 있습니다',
 	'cp-create' => '문서 만들기',
 );
 
