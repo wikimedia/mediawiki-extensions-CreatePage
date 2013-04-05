@@ -101,8 +101,10 @@ $messages['br'] = array(
 
 /** Catalan (català)
  * @author Arnaugir
+ * @author Pintor Smeargle
  */
 $messages['ca'] = array(
+	'cp-desc' => 'Permet incrustar un formulari per a la creació de la nova pàgina',
 	'cp-create' => 'Crea una pàgina',
 );
 
