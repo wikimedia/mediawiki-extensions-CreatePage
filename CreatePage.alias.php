@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'CreatePageRedirect' => array( 'إنشاء_صفحة_تحويلة' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুনৰ্নিৰ্দেশনা_সৃষ্টি_কৰক' ),
 );
