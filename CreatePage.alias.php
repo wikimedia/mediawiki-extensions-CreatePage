@@ -99,6 +99,11 @@ $specialPageAliases['tr'] = array(
 	'CreatePageRedirect' => array( 'YönlendirmeSayfasıOluştur' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'CreatePageRedirect' => array( 'Tạo_trang_đổi_hướng' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'CreatePageRedirect' => array( '创建页面重定向' ),
