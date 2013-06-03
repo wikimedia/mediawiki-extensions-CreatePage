@@ -38,7 +38,7 @@ $messages['ar'] = array(
 	'cp-create' => 'إنشاء صفحة',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  */
 $messages['as'] = array(
@@ -351,7 +351,7 @@ $messages['nl'] = array(
 	'cp-create' => 'Pagina aanmaken',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(
