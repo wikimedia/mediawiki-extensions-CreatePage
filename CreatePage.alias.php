@@ -66,7 +66,7 @@ $specialPageAliases['ko'] = array(
 
 /** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
-	'CreatePageRedirect' => array( 'FormyaDaswedyansFolen' ),
+	'CreatePageRedirect' => array( 'GwruthylDaskedyansFolen' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */
