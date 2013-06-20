@@ -44,6 +44,11 @@ $specialPageAliases['eo'] = array(
 	'CreatePageRedirect' => array( 'Krei_paĝalidirektilon' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'CreatePageRedirect' => array( 'ساخت_صفحه_تغییرمسیر' ),
+);
+
 /** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'CreatePageRedirect' => array( 'Crear_a_páxina_de_redirección' ),
