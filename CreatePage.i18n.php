@@ -185,6 +185,13 @@ $messages['fi'] = array(
 	'cp-create' => 'Luo sivu',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'cp-create' => 'Upprætta síðu',
+);
+
 /** French (français)
  * @author Gomoko
  */
