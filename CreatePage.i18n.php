@@ -358,6 +358,13 @@ $messages['nl'] = array(
 	'cp-create' => 'Pagina aanmaken',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'cp-create' => 'Crear la pagina',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
