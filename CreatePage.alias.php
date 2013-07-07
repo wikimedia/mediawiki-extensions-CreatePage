@@ -64,6 +64,11 @@ $specialPageAliases['it'] = array(
 	'CreatePageRedirect' => array( 'CreaPaginaDiRinvio' ),
 );
 
+/** Japanese (日本語) */
+$specialPageAliases['ja'] = array(
+	'CreatePageRedirect' => array( 'ページリダイレクト作成', 'ページ転送作成' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'CreatePageRedirect' => array( '문서넘겨주기만들기' ),
@@ -87,6 +92,11 @@ $specialPageAliases['mk'] = array(
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'CreatePageRedirect' => array( 'താൾതിരിച്ചുവിടൽസൃഷ്ടിക്കുക' ),
+);
+
+/** Low Saxon (Netherlands) (Nedersaksies) */
+$specialPageAliases['nds-nl'] = array(
+	'CreatePageRedirect' => array( 'Zieddeurverwiezing_anmaken' ),
 );
 
 /** Dutch (Nederlands) */
