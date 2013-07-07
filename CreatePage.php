@@ -73,7 +73,7 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 		
 		$html .= Html::input(
 			'createpage',
-			array_key_exists( 2, $args ) ? trim( $frame->expand( $args[2] ) ) : wfMsg( 'cp-create' ),
+			array_key_exists( 2, $args ) ? trim( $frame->expand( $args[2] ) ) : wfMessage( 'cp-create' )->text(),
 			'submit'
 		);
 		

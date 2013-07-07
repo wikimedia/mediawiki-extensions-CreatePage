@@ -4,6 +4,11 @@ Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Create
 Latest version of the release notes: http://svn.wikimedia.org/viewvc/mediawiki/trunk/extensions/CreatePage/RELEASE-NOTES?view=co
 
 
+=== Version 0.2 ===
+
+* Added 4th parameter to add intial text to the created page.
+* Use of wfMessage rather then wfMsg.
+* Explicit references to globals in entry point file.
 
 === Version 0.1 ===
 (2012-2-4)
