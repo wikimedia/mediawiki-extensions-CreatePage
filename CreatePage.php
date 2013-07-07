@@ -24,11 +24,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
+global $wgVersion, $wgExtensionCredits, $wgExtensionMessagesFiles, $wgAutoloadClasses;
+global $wgSpecialPages, $wgHooks;
+
 if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c because version_compare() works in confusing ways.
 	die( '<b>Error:</b> Create Page requires MediaWiki 1.18 or above.' );
 }
 
-define( 'CP_VERSION', '0.1' );
+define( 'CP_VERSION', '0.2 alpha' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
