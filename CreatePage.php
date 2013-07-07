@@ -31,7 +31,7 @@ if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c becaus
 	die( '<b>Error:</b> Create Page requires MediaWiki 1.18 or above.' );
 }
 
-define( 'CP_VERSION', '0.2 alpha' );
+define( 'CP_VERSION', '0.2' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -76,6 +76,10 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 			array_key_exists( 2, $args ) ? trim( $frame->expand( $args[2] ) ) : wfMessage( 'cp-create' )->text(),
 			'submit'
 		);
+
+		if ( array_key_exists( 3, $args ) ) {
+			$html .= Html::hidden( 'preload', trim( $frame->expand( $args[3] ) ) );
+		}
 		
 		$html .= '</form>';
 		

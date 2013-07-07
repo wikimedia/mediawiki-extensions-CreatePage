@@ -29,7 +29,8 @@ class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 			
 			$target = Title::newFromText( implode( ':', $parts ) )->getLocalUrl( array(
 				'action' => 'edit',
-				'redlink' => '1'
+				'redlink' => '1',
+				'preload' => $req->getText( 'preload', '' )
 			) );
 		}
 		else {
