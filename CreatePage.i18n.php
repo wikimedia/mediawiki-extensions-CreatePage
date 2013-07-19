@@ -310,6 +310,13 @@ $messages['lez'] = array(
 	'cp-create' => 'Ччин туькIуьрун',
 );
 
+/** Lithuanian (lietuvių)
+ * @author Eitvys200
+ */
+$messages['lt'] = array(
+	'cp-create' => 'Kurti puslapį',
+);
+
 /** Mizo (Mizo ţawng)
  * @author RMizo
  */
