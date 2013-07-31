@@ -84,6 +84,11 @@ $specialPageAliases['lb'] = array(
 	'CreatePageRedirect' => array( 'Viruleedung_vu_Säiten_uleeën' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$specialPageAliases['min'] = array(
+	'CreatePageRedirect' => array( 'BuekPangaliahanLaman' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CreatePageRedirect' => array( 'НаправиПренасочување' ),
