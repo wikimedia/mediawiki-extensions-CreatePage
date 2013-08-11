@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুনৰ্নিৰ্দেশনা_সৃষ্টি_কৰক' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'CreatePageRedirect' => array( '創建頁面重定向' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'CreatePageRedirect' => array( 'Seitenweiterleitung_erstellen' ),
