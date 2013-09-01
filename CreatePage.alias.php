@@ -44,6 +44,11 @@ $specialPageAliases['diq'] = array(
 	'CreatePageRedirect' => array( 'HetenayışéPelaVıraştan' ),
 );
 
+/** Greek (Ελληνικά) */
+$specialPageAliases['el'] = array(
+	'CreatePageRedirect' => array( 'ΔημιουργίαΑνακατεύθυνσηςΣελίδας' ),
+);
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = array(
 	'CreatePageRedirect' => array( 'Krei_paĝalidirektilon' ),
