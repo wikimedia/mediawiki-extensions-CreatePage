@@ -370,6 +370,7 @@ $messages['nl'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'cp-desc' => "Permet d'inclure un formulari per la creacion d'una pagina novèla",
 	'cp-create' => 'Crear la pagina',
 );
 
