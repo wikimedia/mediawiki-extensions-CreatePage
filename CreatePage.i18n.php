@@ -405,6 +405,14 @@ $messages['ps'] = array(
 	'cp-create' => 'مخ جوړول',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'cp-desc' => 'Permite incorporar um formulário para a criação de novas páginas',
+	'cp-create' => 'Criar página',
+);
+
 /** Romanian (română)
  * @author Minisarm
  */
