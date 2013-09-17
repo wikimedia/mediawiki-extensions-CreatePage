@@ -525,6 +525,7 @@ $messages['ur'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'cp-desc' => 'לאזט איינבעטן א פארעם צו שאפן א נייעם בלאט',
 	'cp-create' => 'שאַפֿן בלאַט',
 );
 
