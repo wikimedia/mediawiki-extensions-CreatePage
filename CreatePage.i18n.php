@@ -109,7 +109,7 @@ $messages['ca'] = array(
 	'cp-create' => 'Crea una pàgina',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Reaperman
  */
 $messages['cs'] = array(
