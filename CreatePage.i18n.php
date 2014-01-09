@@ -109,6 +109,13 @@ $messages['ca'] = array(
 	'cp-create' => 'Crea una pàgina',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'cp-create' => 'АгӀо кхолла',
+);
+
 /** Czech (čeština)
  * @author Reaperman
  */
