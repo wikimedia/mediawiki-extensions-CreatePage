@@ -25,6 +25,11 @@ $specialPageAliases['ar'] = array(
 	'CreatePageRedirect' => array( 'إنشاء_صفحة_تحويلة' ),
 );
 
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'CreatePageRedirect' => array( 'عمل_صفحه_تحويله' ),
+);
+
 /** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুনৰ্নিৰ্দেশনা_সৃষ্টি_কৰক' ),
