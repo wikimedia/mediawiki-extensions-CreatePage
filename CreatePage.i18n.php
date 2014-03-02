@@ -490,6 +490,13 @@ $messages['ta'] = array(
 	'cp-create' => 'பக்கத்தை உருவாக்கவும்',
 );
 
+/** Telugu (తెలుగు)
+ * @author Chaduvari
+ */
+$messages['te'] = array(
+	'cp-create' => 'పేజీని సృష్టించు',
+);
+
 /** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
