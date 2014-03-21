@@ -47,7 +47,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'CreatePageRedirect' => array( 'HetenayışéPelaVıraştan' ),
+	'CreatePageRedirect' => array( 'HetenayışéPerrerVıraşten' ),
 );
 
 /** Greek (Ελληνικά) */
