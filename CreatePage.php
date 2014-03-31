@@ -31,7 +31,7 @@ if ( version_compare( $wgVersion, '1.18c', '<' ) ) { // Needs to be 1.18c becaus
 	die( '<b>Error:</b> Create Page requires MediaWiki 1.18 or above.' );
 }
 
-define( 'CP_VERSION', '0.2' );
+define( 'CP_VERSION', '0.3.0' );
 
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
@@ -45,6 +45,7 @@ $wgExtensionCredits['other'][] = array(
 );
 
 // i18n
+$wgMessagesDirs['CreatePage'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CreatePage'] = dirname( __FILE__ ) . '/CreatePage.i18n.php';
 $wgExtensionMessagesFiles['CreatePageAlias'] = dirname( __FILE__ ) . '/CreatePage.alias.php';
 $wgExtensionMessagesFiles['CreatePageMagic'] = dirname( __FILE__ ) . '/CreatePage.magic.php';
@@ -59,18 +60,18 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 			'method' => 'post',
 			'style' => 'display: inline',
 		) );
-		
+
 		$html .= Html::input(
 			'pagename',
 			array_key_exists( 1, $args ) ? trim( $frame->expand( $args[1] ) ) : ''
 		);
-		
+
 		if ( array_key_exists( 0, $args ) ) {
 			$html .= Html::hidden( 'pagens', trim( $frame->expand( $args[0] ) ) );
 		}
-		
+
 		$html .= '&#160;';
-		
+
 		$html .= Html::input(
 			'createpage',
 			array_key_exists( 2, $args ) ? trim( $frame->expand( $args[2] ) ) : wfMessage( 'cp-create' )->text(),
@@ -80,9 +81,9 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 		if ( array_key_exists( 3, $args ) ) {
 			$html .= Html::hidden( 'preload', trim( $frame->expand( $args[3] ) ) );
 		}
-		
+
 		$html .= '</form>';
-		
+
 		return $parser->insertStripItem( $html );
 	}, SFH_OBJECT_ARGS );
 

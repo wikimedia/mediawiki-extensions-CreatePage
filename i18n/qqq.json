@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jeroen De Dauw",
+            "Shirayuki"
+        ]
+    },
+    "cp-desc": "{{desc|name=Create Page|url=http://www.mediawiki.org/wiki/Extension:Create_Page}}",
+    "cp-create": "Create button text.\n{{Identical|Create page}}"
+}
