@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ajdar"
-        ]
-    },
-    "cp-desc": "Ясалган мәкалә өчен кыса кую.",
-    "cp-create": "Мәкалә ясау"
+	"@metadata": {
+		"authors": [
+			"Ajdar"
+		]
+	},
+	"cp-desc": "Ясалган мәкалә өчен кыса кую.",
+	"cp-create": "Мәкалә ясау"
 }

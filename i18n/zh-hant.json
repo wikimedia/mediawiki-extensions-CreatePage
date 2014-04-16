@@ -1,7 +1,5 @@
 {
-    "@metadata": {
-        "authors": []
-    },
-    "cp-desc": "允許內置用於創建新頁面的表單",
-    "cp-create": "創建頁面"
+	"@metadata": [],
+	"cp-desc": "允許內置用於創建新頁面的表單",
+	"cp-create": "創建頁面"
 }

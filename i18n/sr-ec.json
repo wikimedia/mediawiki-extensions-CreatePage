@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rancher"
-        ]
-    },
-    "cp-create": "Направи страницу"
+	"@metadata": {
+		"authors": [
+			"Rancher"
+		]
+	},
+	"cp-create": "Направи страницу"
 }

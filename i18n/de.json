@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kghbln",
-            "Metalhead64"
-        ]
-    },
-    "cp-desc": "Ermöglicht das Einbetten eines Formulars zum Anlegen neuer Seite",
-    "cp-create": "Seite erstellen"
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"cp-desc": "Ermöglicht das Einbetten eines Formulars zum Anlegen neuer Seite",
+	"cp-create": "Seite erstellen"
 }

@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "cp-desc": "Permite incorporar un formulario para a creación de páxinas novas",
-    "cp-create": "Crear a páxina"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"cp-desc": "Permite incorporar un formulario para a creación de páxinas novas",
+	"cp-create": "Crear a páxina"
 }
