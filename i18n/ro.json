@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Minisarm"
+			"Minisarm",
+			"Danutz"
 		]
 	},
-	"cp-create": "Creează pagina"
+	"cp-create": "Creare pagină"
 }
