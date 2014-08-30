@@ -152,5 +152,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'CreatePageRedirect' => array( '建立頁面重定向' ),
+	'CreatePageRedirect' => array( '建立頁面重新導向' ),
 );
