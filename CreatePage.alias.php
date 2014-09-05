@@ -100,6 +100,11 @@ $specialPageAliases['lb'] = array(
 	'CreatePageRedirect' => array( 'Viruleedung_vu_Säiten_uleeën' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'CreatePageRedirect' => array( 'HamoronaFihodinampejy' ),
+);
+
 /** Minangkabau (Baso Minangkabau) */
 $specialPageAliases['min'] = array(
 	'CreatePageRedirect' => array( 'BuekPangaliahanLaman' ),
