@@ -85,7 +85,7 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 		$html .= '</form>';
 
 		return $parser->insertStripItem( $html );
-	}, SFH_OBJECT_ARGS );
+	}, Parser::SFH_OBJECT_ARGS );
 
 	return true;
 };
