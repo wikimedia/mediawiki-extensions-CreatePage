@@ -2,6 +2,10 @@ These are the release notes for the Create Page extension.
 	
 Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Create_Page
 
+== Version 0.4 ==
+* Added $wgCreatePageEditExisting variable. Set to true to edit existing pages.
+* Added $wgCreatePageUseVisualEditor variable. Set to true to redirect to VisualEditor for page creation.
+* Added autocomplete to input field.
 
 === Version 0.2 ===
 (2013-07-07)
