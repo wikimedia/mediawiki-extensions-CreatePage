@@ -130,6 +130,11 @@ $specialPageAliases['nl'] = array(
 	'CreatePageRedirect' => array( 'PaginadoorverwijzingAanmaken' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'CreatePageRedirect' => array( 'Criar_redirecionamento_de_página' ),
+);
+
 /** Sicilian (sicilianu) */
 $specialPageAliases['scn'] = array(
 	'CreatePageRedirect' => array( 'CreaPaginaDiRinvio' ),
