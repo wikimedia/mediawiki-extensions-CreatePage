@@ -35,6 +35,11 @@ $specialPageAliases['as'] = array(
 	'CreatePageRedirect' => array( 'পৃষ্ঠাৰ_পুনৰ্নিৰ্দেশনা_সৃষ্টি_কৰক' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'CreatePageRedirect' => array( 'تغیرمسیری_وّرق_ئی_جۆڑ_کورتین' ),
+);
+
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $specialPageAliases['cdo'] = array(
 	'CreatePageRedirect' => array( '創建頁面重定向' ),
