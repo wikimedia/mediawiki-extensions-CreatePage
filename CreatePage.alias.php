@@ -25,7 +25,7 @@ $specialPageAliases['ar'] = array(
 	'CreatePageRedirect' => array( 'إنشاء_صفحة_تحويلة' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'CreatePageRedirect' => array( 'عمل_صفحه_تحويله' ),
 );
@@ -105,7 +105,7 @@ $specialPageAliases['lb'] = array(
 	'CreatePageRedirect' => array( 'Viruleedung_vu_Säiten_uleeën' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'CreatePageRedirect' => array( 'راس_کردن_بلگه_واگردونی' ),
 );
