@@ -105,7 +105,7 @@ $specialPageAliases['lb'] = array(
 	'CreatePageRedirect' => array( 'Viruleedung_vu_Säiten_uleeën' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'CreatePageRedirect' => array( 'راس_کردن_بلگه_واگردونی' ),
 );
