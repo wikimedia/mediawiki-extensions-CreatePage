@@ -107,7 +107,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'CreatePageRedirect' => array( 'راس_کردن_بلگه_واگردونی' ),
+	'CreatePageRedirect' => array( 'راس_کئردئن_بألگە_واگردونی' ),
 );
 
 /** Malagasy (Malagasy) */
