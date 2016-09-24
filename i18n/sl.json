@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eleassar"
+			"Eleassar",
+			"Dbc334"
 		]
 	},
+	"cp-desc": "Omogoča vključitev obrazca pri ustvarjanju nove strani",
 	"cp-create": "Ustvari stran"
 }
