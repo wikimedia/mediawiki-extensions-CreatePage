@@ -53,7 +53,6 @@ $wgCreatePageUseVisualEditor = false;
 
 // i18n
 $wgMessagesDirs['CreatePage'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['CreatePage'] = __DIR__ . '/CreatePage.i18n.php';
 $wgExtensionMessagesFiles['CreatePageAlias'] = __DIR__ . '/CreatePage.alias.php';
 $wgExtensionMessagesFiles['CreatePageMagic'] = __DIR__ . '/CreatePage.magic.php';
 
