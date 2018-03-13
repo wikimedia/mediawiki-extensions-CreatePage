@@ -1,15 +1,28 @@
 <?php
-
 /**
- * Aliases for the special pages of the Create Page extension.
+ * This file is part of the MediaWiki extension CreatePage.
  *
- * @since 0.1
+ * Copyright (C) 2012, Ike Hecht & Jeroen De Dauw
  *
- * @file CreatePage.alias.php
- * @ingroup CreatePage
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
  *
- * @licence GNU GPL v3+
- * @author Jeroen De Dauw < jeroendedauw@gmail.com >
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * @ingroup Extensions
+ * @author Ike Hecht
+ * @author Jeroen De Dauw
+ * @version 0.1
+ * @link https://www.mediawiki.org/wiki/Extension:Create_Page Documentation
+ * @license https://www.gnu.org/licenses/gpl-3.0-standalone.html GPL-3.0-or-later
  */
 $specialPageAliases = [];
 
