@@ -30,3 +30,8 @@ $magicWords = [];
 $magicWords['en'] = [
 	'createpage' => [ 0, 'createpage' ],
 ];
+
+/** Spanish (Español) */
+$magicWords['es'] = [
+	'createpage' => [ 0, 'crearpágina', 'crear_página' ],
+];

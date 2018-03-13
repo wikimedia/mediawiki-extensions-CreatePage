@@ -71,6 +71,11 @@ $specialPageAliases['el'] = [
 	'CreatePageRedirect' => [ 'ΔημιουργίαΑνακατεύθυνσηςΣελίδας' ],
 ];
 
+/** Spanish (Εspañol) */
+$specialPageAliases['es'] = [
+	'CreatePageRedirect' => [ 'Crear_redirección_de_página' ],
+];
+
 /** Esperanto (Esperanto) */
 $specialPageAliases['eo'] = [
 	'CreatePageRedirect' => [ 'Krei_paĝalidirektilon' ],
