@@ -166,6 +166,16 @@ $specialPageAliases['scn'] = [
 	'CreatePageRedirect' => [ 'CreaPaginaDiRinvio' ],
 ];
 
+/** Serbian (Cyrilic) */
+$specialPageAliases['sr-ec'] = [
+	'CreatePageRedirect' => [ 'НаправиПреусмерење' ],
+];
+
+/** Serbian (Latin) */
+$specialPageAliases['sr-el'] = [
+	'CreatePageRedirect' => [ 'NapraviPreusmerenje' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'CreatePageRedirect' => [ 'Skapa_sidomdirigering' ],
