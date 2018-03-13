@@ -39,7 +39,7 @@ class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 		global $wgCreatePageEditExisting, $wgCreatePageUseVisualEditor;
 
 		$isKnown = $title->isKnown();
-		$query = array();
+		$query = [];
 		if ( !$isKnown || $wgCreatePageEditExisting ) {
 			# Preload is not yet supported by VisualEditor, but probably will be eventually.
 			# See https://phabricator.wikimedia.org/T51622

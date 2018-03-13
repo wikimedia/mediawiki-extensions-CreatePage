@@ -12,11 +12,11 @@
  * @author Jeroen De Dauw < jeroendedauw@gmail.com >
  */
 
-$magicWords = array();
+$magicWords = [];
 
 /** English
  * @author Jeroen De Dauw
  */
-$magicWords['en'] = array(
-	'createpage' => array( 0, 'createpage' ),
-);
+$magicWords['en'] = [
+	'createpage' => [ 0, 'createpage' ],
+];

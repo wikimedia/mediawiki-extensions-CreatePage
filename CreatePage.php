@@ -34,18 +34,18 @@ if ( version_compare( $wgVersion, '1.18c', '<' ) ) {
 
 define( 'CP_VERSION', '0.4.0' );
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'Create Page',
 	'version' => CP_VERSION,
-	'author' => array(
+	'author' => [
 		'[https://www.mediawiki.org/wiki/User:Jeroen_De_Dauw Jeroen De Dauw]',
 		'Ike Hecht'
-	),
+	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Create_Page',
 	'descriptionmsg' => 'cp-desc'
-);
-//Configuration
+];
+// Configuration
 /* Set to true to edit existing pages. */
 $wgCreatePageEditExisting = false;
 /* Set to true to redirect to VisualEditor for page creation. */
@@ -59,31 +59,31 @@ $wgExtensionMessagesFiles['CreatePageMagic'] = __DIR__ . '/CreatePage.magic.php'
 $wgAutoloadClasses['SpecialCreatePageRedirect'] = __DIR__ . '/SpecialCreatePageRedirect.php';
 $wgSpecialPages['CreatePageRedirect'] = 'SpecialCreatePageRedirect';
 
-$wgResourceModules['ext.createPage'] = array(
+$wgResourceModules['ext.createPage'] = [
 	'scripts' => 'modules/createPage.searchSuggest.js',
 	'dependencies' => 'mediawiki.searchSuggest',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'CreatePage'
-);
+];
 
-$wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
-	$parser->setFunctionHook( 'createpage', function( Parser $parser, PPFrame $frame, array $args ) {
-		$html = Html::openElement( 'form', array(
+$wgHooks['ParserFirstCallInit'][] = function ( Parser &$parser ) {
+	$parser->setFunctionHook( 'createpage', function ( Parser $parser, PPFrame $frame, array $args ) {
+		$html = Html::openElement( 'form', [
 			'action' => SpecialPage::getTitleFor( 'CreatePageRedirect' )->getLocalURL(),
 			'method' => 'post',
 			'style' => 'display: inline',
 			'class' => 'createpageform'
-			) );
+			] );
 
 		$html .= Html::input(
 			'pagename',
 			array_key_exists( 1, $args ) ? trim( $frame->expand( $args[1] ) ) : '', 'text',
-				array( 'class' => 'pagenameinput' )
+				[ 'class' => 'pagenameinput' ]
 		);
 
 		if ( array_key_exists( 0, $args ) ) {
-			$namespaceText =  trim( $frame->expand( $args[0] ) );
-			$attribs = array();
+			$namespaceText = trim( $frame->expand( $args[0] ) );
+			$attribs = [];
 
 			// Find the ID of this namespace, if there is one.
 			$namespaceID = MWNamespace::getCanonicalIndex( strtolower( $namespaceText ) );
@@ -113,7 +113,7 @@ $wgHooks['ParserFirstCallInit'][] = function( Parser &$parser ) {
 	return true;
 };
 
-$wgHooks['BeforePageDisplay'][] = function( OutputPage &$out ) {
+$wgHooks['BeforePageDisplay'][] = function ( OutputPage &$out ) {
 	$out->addModules( 'ext.createPage' );
 	return true;
 };
