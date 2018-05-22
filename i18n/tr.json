@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Suelnur"
+			"Suelnur",
+			"Hedda"
 		]
 	},
+	"cp-desc": "Yeni sayfa oluşturma için bir form yerleştirmeye izin verir",
 	"cp-create": "Sayfa oluştur"
 }
