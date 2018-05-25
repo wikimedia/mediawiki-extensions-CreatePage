@@ -22,7 +22,7 @@
  * @author Jeroen De Dauw
  * @version 0.1
  * @link https://www.mediawiki.org/wiki/Extension:Create_Page Documentation
- * @license https://www.gnu.org/licenses/gpl-3.0-standalone.html GNU General Public License 3.0 or later
+ * @license GPL-3.0-or-later
  */
 $magicWords = [];
 
