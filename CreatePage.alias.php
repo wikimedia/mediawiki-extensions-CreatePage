@@ -51,6 +51,11 @@ $specialPageAliases['bgn'] = [
 	'CreatePageRedirect' => [ 'تغیرمسیری_وّرق_ئی_جۆڑ_کورتین' ],
 ];
 
+/** Bosnian (bosanski) */
+$specialPageAliases['bs'] = [
+	'CreatePageRedirect' => [ 'NapraviPreusmjerenje' ],
+];
+
 /** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
 $specialPageAliases['cdo'] = [
 	'CreatePageRedirect' => [ '創建頁面重定向' ],
@@ -166,12 +171,12 @@ $specialPageAliases['scn'] = [
 	'CreatePageRedirect' => [ 'CreaPaginaDiRinvio' ],
 ];
 
-/** Serbian (Cyrilic) */
+/** Serbian (Cyrillic) (српски (ћирилица)) */
 $specialPageAliases['sr-ec'] = [
 	'CreatePageRedirect' => [ 'НаправиПреусмерење' ],
 ];
 
-/** Serbian (Latin) */
+/** Serbian (Latin) (srpski (latinica)) */
 $specialPageAliases['sr-el'] = [
 	'CreatePageRedirect' => [ 'NapraviPreusmerenje' ],
 ];
