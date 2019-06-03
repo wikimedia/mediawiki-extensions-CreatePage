@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Mirin"
 		]
 	},
+	"cp-desc": "Permesi enkorpigadon de formularo por kreado de nova paĝo",
 	"cp-create": "Krei paĝon"
 }
