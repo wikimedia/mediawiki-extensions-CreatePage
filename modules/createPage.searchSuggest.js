@@ -18,14 +18,14 @@
 		// Compatibility map
 		map = {
 			// SimpleSearch is broken in Opera < 9.6
-			opera: [['>=', 9.6]],
+			opera: [ [ '>=', 9.6 ] ],
 			// Older Konquerors are unable to position the suggestions correctly (bug 50805)
-			konqueror: [['>=', '4.11']],
+			konqueror: [ [ '>=', '4.11' ] ],
 			docomo: false,
 			blackberry: false,
 			// Support for iOS 6 or higher. It has not been tested on iOS 5 or lower
-			ipod: [['>=', 6]],
-			iphone: [['>=', 6]]
+			ipod: [ [ '>=', 6 ] ],
+			iphone: [ [ '>=', 6 ] ]
 		};
 
 		if ( !$.client.test( map ) ) {
@@ -74,14 +74,14 @@
 		$( searchboxesSelectors.join( ', ' ) )
 			.suggestions( {
 				fetch: function ( query, response, maxRows ) {
-					var node = this[0];
+					var node = this[ 0 ];
 
 					api = api || new mw.Api();
 
 					// Set the namespace on which to search,
 					// potentially based on a hidden HTML
 					// attribute.
-					var searchNS = $(this).parent().find('input[name=pagens]').attr('nsid');
+					var searchNS = $( this ).parent().find( 'input[name=pagens]' ).attr( 'nsid' );
 					if ( searchNS === undefined ) {
 						searchNS = 0;
 					}
@@ -97,7 +97,7 @@
 					} ) );
 				},
 				cancel: function () {
-					var node = this[0],
+					var node = this[ 0 ],
 						request = $.data( node, 'request' );
 
 					if ( request ) {
@@ -128,7 +128,7 @@
 				$this
 					.data( 'suggestions-context' )
 					.data.$container
-						.css( 'fontSize', $this.css( 'fontSize' ) );
+					.css( 'fontSize', $this.css( 'fontSize' ) );
 			} );
 
 		// Ensure that the thing is actually present!
