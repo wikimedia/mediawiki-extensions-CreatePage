@@ -30,6 +30,9 @@ class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 		parent::__construct( 'CreatePageRedirect' );
 	}
 
+	/**
+	 * @param string|null $subPage
+	 */
 	public function execute( $subPage ) {
 		$req = $this->getRequest();
 		if ( $req->getCheck( 'pagename' ) ) {
@@ -48,19 +51,23 @@ class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 		$this->getOutput()->redirect( $target, '301' );
 	}
 
+	/**
+	 * @param Title $title
+	 * @return array
+	 */
 	private function getTargetURL( Title $title ) {
-		global $wgCreatePageEditExisting, $wgCreatePageUseVisualEditor;
-
+		$config = $this->getConfig();
 		$isKnown = $title->isKnown();
+
 		$query = [];
-		if ( !$isKnown || $wgCreatePageEditExisting ) {
+		if ( !$isKnown || $config->get( 'CreatePageEditExisting' ) ) {
 			# Preload is not yet supported by VisualEditor, but probably will be eventually.
 			# See https://phabricator.wikimedia.org/T51622
 			$query['preload'] = $this->getRequest()->getText( 'preload', '' );
 			if ( !$isKnown ) {
 				$query['redlink'] = '1';
 			}
-			if ( $wgCreatePageUseVisualEditor ) {
+			if ( $config->get( 'CreatePageUseVisualEditor' ) ) {
 				$query['veaction'] = 'edit';
 			} else {
 				$query['action'] = 'edit';
