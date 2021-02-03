@@ -35,3 +35,13 @@ $magicWords['en'] = [
 $magicWords['es'] = [
 	'createpage' => [ 0, 'crearpágina', 'crear_página' ],
 ];
+
+/** Serbian Cyrillic (српски (ћирилица)) */
+$magicWords['sr-ec'] = [
+	'createpage' => [ 0, 'направистраницу' ],
+];
+
+/** Serbian Latin (srpski (latinica)) */
+$magicWords['sr-el'] = [
+	'createpage' => [ 0, 'napravistranicu' ],
+];
