@@ -10,7 +10,6 @@
 		"jQuery": false
 	},
 	"rules": {
-		"one-var": "warn",
 		"vars-on-top": "warn",
 		"no-jquery/no-global-selector": "warn"
 	}
