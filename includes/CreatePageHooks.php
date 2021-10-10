@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class CreatePageHooks {
 
 	/**
@@ -44,7 +46,9 @@ class CreatePageHooks {
 			$attribs = [];
 
 			// Find the ID of this namespace, if there is one.
-			$namespaceID = MWNamespace::getCanonicalIndex( strtolower( $namespaceText ) );
+			$namespaceID = MediaWikiServices::getInstance()
+				->getNamespaceInfo()
+				->getCanonicalIndex( strtolower( $namespaceText ) );
 			if ( $namespaceID != 0 ) {
 				$attribs['nsid'] = $namespaceID;
 			}
