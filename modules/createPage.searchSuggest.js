@@ -4,8 +4,8 @@
  * renaming of the selectors.
  */
 ( function ( mw, $ ) {
-	$( function () {
-		var api, map, resultRenderCache, searchboxesSelectors,
+	$( () => {
+		let api, map, resultRenderCache, searchboxesSelectors,
 			// Region where the suggestions box will appear directly below
 			// (using the same width). Can be a container element or the input
 			// itself, depending on what suits best in the environment.
@@ -34,13 +34,13 @@
 
 		// Compute form data for search suggestions functionality.
 		function computeResultRenderCache( context ) {
-			var $form, baseHref, linkParams;
+			let $form, baseHref, linkParams;
 
 			// Compute common parameters for links' hrefs
 			$form = context.config.$region.closest( 'form' );
 
 			baseHref = $form.attr( 'action' );
-			baseHref += baseHref.indexOf( '?' ) > -1 ? '&' : '?';
+			baseHref += baseHref.includes( '?' ) ? '&' : '?';
 
 			linkParams = $form.serializeObject();
 
@@ -74,14 +74,14 @@
 		$( searchboxesSelectors.join( ', ' ) )
 			.suggestions( {
 				fetch: function ( query, response, maxRows ) {
-					var node = this[ 0 ];
+					const node = this[ 0 ];
 
 					api = api || new mw.Api();
 
 					// Set the namespace on which to search,
 					// potentially based on a hidden HTML
 					// attribute.
-					var searchNS = $( this ).parent().find( 'input[name=pagens]' ).attr( 'nsid' );
+					let searchNS = $( this ).parent().find( 'input[name=pagens]' ).attr( 'nsid' );
 					if ( searchNS === undefined ) {
 						searchNS = 0;
 					}
@@ -92,12 +92,12 @@
 						namespace: searchNS,
 						limit: maxRows,
 						suggest: ''
-					} ).done( function ( data ) {
+					} ).done( ( data ) => {
 						response( data[ 1 ] );
 					} ) );
 				},
 				cancel: function () {
-					var node = this[ 0 ],
+					const node = this[ 0 ],
 						request = $.data( node, 'request' );
 
 					if ( request ) {
@@ -124,7 +124,7 @@
 			// (they use 2 elements to get a sane font-height). So, instead of making exceptions for
 			// each skin or adding more stylesheets, just copy it from the active element so auto-fit.
 			.each( function () {
-				var $this = $( this );
+				const $this = $( this );
 				$this
 					.data( 'suggestions-context' )
 					.data.$container
