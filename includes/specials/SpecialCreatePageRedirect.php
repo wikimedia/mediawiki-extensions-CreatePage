@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\Title\Title;
+
 /**
  * This file is part of the MediaWiki extension CreatePage.
  *
@@ -53,7 +56,7 @@ class SpecialCreatePageRedirect extends UnlistedSpecialPage {
 
 	/**
 	 * @param Title $title
-	 * @return array
+	 * @return string
 	 */
 	private function getTargetURL( Title $title ) {
 		$config = $this->getConfig();
